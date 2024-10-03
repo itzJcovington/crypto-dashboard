@@ -4,6 +4,8 @@ import axios from "axios";
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.set('view engine', 'ejs');
+
 app.use(express.static("public"));
 
 app.get("/", async (req, res) => {
@@ -20,7 +22,7 @@ app.get("/", async (req, res) => {
             adaResult
         ]);
 
-        res.render("index.ejs", {
+        res.render("index", {
             btc: btc.data,
             eth: eth.data,
             xrp: xrp.data,
