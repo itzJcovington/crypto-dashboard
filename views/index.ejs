@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>crypto-dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>crypto-dashboard</h1>
+        <div>
+            <img src="/images/file-person.svg">
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>BITCOIN[BTC]</h2>
+            <h3 class="price">Price: $<%= btc.market_data.current_price.usd.toLocaleString() %></h3>
+            <h3 class="marketcap">Marketcap: $<%= btc.market_data.market_cap.usd.toLocaleString() %></h3>
+            <h3 class="change">24h Change: <%= btc.market_data.price_change_percentage_24h %></h3>
+        </div>
+        <div>
+            <h2>ETHEREUM[ETH]</h2>
+            <h3 class="price">Price: $<%= eth.market_data.current_price.usd.toLocaleString() %></h3>
+            <h3 class="marketcap">Marketcap: $<%= eth.market_data.market_cap.usd.toLocaleString() %></h3>
+            <h3 class="change">24h Change: <%= eth.market_data.price_change_percentage_24h %></h3>
+        </div>
+        <div>
+            <h2>CARDANO[ADA]</h2>
+            <h3 class="price">Price: $<%= ada.market_data.current_price.usd.toLocaleString() %></h3>
+            <h3 class="marketcap">Marketcap: $<%= ada.market_data.market_cap.usd.toLocaleString() %></h3>
+            <h3 class="change">24h Change: <%= ada.market_data.price_change_percentage_24h %></h3>
+        </div>
+        <div>
+            <h2>RIPPLE[XRP]</h2>
+            <h3 class="price">Price: $<%= xrp.market_data.current_price.usd %></h3>
+            <h3 class="marketcap">Marketcap: $<%= xrp.market_data.market_cap.usd %></h3>
+            <h3 class="change">24h Change: <%= xrp.market_data.price_change_percentage_24h %></h3>
+        </div>
+    </main>
+</body>
+</html>

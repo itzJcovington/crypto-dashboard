@@ -1,0 +1,158 @@
+/* BODY */
+
+body {
+    background-color: #3C3D37;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+}
+
+/* BODY */
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #697565;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    height: 15vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    margin-left: 3vw;
+    font-size: 9vw;
+
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 15vw;  
+}
+
+header div:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header img {
+    width: 8vw;
+}
+
+/* HEADER */
+/* MAIN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vw;
+}
+
+main div {
+    height: 50vw;
+    width: 70vw;
+    color: white;
+    background-color: #697565;
+    margin: 10vw;
+    border-radius: 5px;
+}
+
+main h2 {
+    font-size: 7vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 10vw;
+}
+
+main h3 {
+    font-size: 4vw;
+}
+
+.price {
+    margin-left: 14.7vw;
+}
+
+.marketcap {
+    margin-left: 4vw;
+}
+
+.change {
+    margin-left: 2vw;
+}
+
+/* MAIN */
+
+@media (min-width: 768px) {
+
+    /* HEADER */
+
+    header {
+        height: 60px;
+        margin-bottom: 70px;
+    }
+
+    header h1 {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+
+    header img {
+        width: 32px;
+    }
+
+    header div {
+        height: 60px;
+        width: 60px;
+    }
+
+    /* HEADER */
+    /* MAIN */
+
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    main div {
+        height: 260px;
+        width: 400px;
+        margin: 30px;
+    }
+
+    main h2 {
+        font-size: 24px;
+        margin-bottom: 70px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    main h3 {
+        font-size: 20px;
+    }
+
+    .price {
+        margin-left: 68px;
+    }
+    
+    .marketcap {
+        margin-left: 18px; 
+    }
+
+    .change {
+        margin-left: 10px;
+    }
+
+    /* MAIN */
+}
