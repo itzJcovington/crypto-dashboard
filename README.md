@@ -17,7 +17,7 @@ A dynamic cryptocurrency dashboard that displays real-time data for Bitcoin, Eth
 
 ## Live Website
 
-Visit the live version of the project here: **Crypto Dashboard**
+Visit the live version of the project here: [**Crypto Dashboard**](https://crypto-dashboard-2a76.onrender.com/)
 
 > **Note:** If the site has been inactive for a while, it may take up to a minute to start back up due to how the free hosting on Render.com works. Please be patient as the server spins back up.
 
