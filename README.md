@@ -1,4 +1,3 @@
-
 # Crypto Dashboard
 
 A dynamic cryptocurrency dashboard that displays real-time data for Bitcoin, Ethereum, Ripple, and Cardano. Data refreshes every 60 seconds, providing up-to-date prices, market caps, and 24-hour changes.
@@ -13,31 +12,26 @@ A dynamic cryptocurrency dashboard that displays real-time data for Bitcoin, Eth
 
 - **Backend:** Node.js, Express.js
 - **API Handling:** Axios
-- **Frontend:** EJS for templating, CSS (Flexbox, Grid)
+- **Frontend:** EJS for templating, CSS (Flexbox)
+- **Design:** Figma
+
+## Live Website
+
+Visit the live version of the project here: **Crypto Dashboard**
+
+> **Note:** If the site has been inactive for a while, it may take up to a minute to start back up due to how the free hosting on Render.com works. Please be patient as the server spins back up.
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/itzJcovington/crypto-dashboard.git
-   ```
 2. Navigate to the project directory:
-   ```bash
-   cd crypto-dashboard
-   ```
 3. Install dependencies:
-   ```bash
-   npm install
-   ```
 4. Start the server:
-   ```bash
-   npm start
-   ```
 5. Open your browser and go to `http://localhost:3000`
 
 ## API Usage
 
-This project uses the [CoinGecko API](https://www.coingecko.com/en/api) to fetch data for:
+This project uses the CoinGecko API to fetch data for:
 
 - Bitcoin (BTC)
 - Ethereum (ETH)
